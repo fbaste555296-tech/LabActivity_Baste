@@ -8,7 +8,6 @@ def lcm(a, b):
     """Compute LCM using recursion"""
     return abs(a * b) // gcd(a, b)
 
-# Main Program
 while True:
     x = int(input("Enter a value for x: "))
     y = int(input("Enter a value for y: "))
@@ -18,3 +17,4 @@ while True:
         print("Error: Please enter positive integers only.")
 
 print(f"The LCM of {x} and {y} is = {lcm(x, y)}")
+
